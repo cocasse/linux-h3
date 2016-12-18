@@ -3,9 +3,7 @@
  |  Mainline Linux kernel for H3 devices  |
  +========================================+
 
-This kernel tree is primarily intended for Orange Pi PC, Orange Pi One, and Orange Pi 
-Zero. However, you can easily modify the appropriate .dts files and port it to 
-other H3-based boards.
+This kernel tree is based on mainline kernel 4.9.0, plus various patches primarily intended for Orange Pi PC, Orange Pi One, and Orange Pi Zero. Please feel free to modify the appropriate .dts files and port it to other H3-based boards.
 
 WHAT WORKS:
 
