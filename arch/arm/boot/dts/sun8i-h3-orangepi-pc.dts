@@ -72,11 +72,14 @@
 			label = "orangepi:green:pwr";
 			gpios = <&r_pio 0 10 GPIO_ACTIVE_HIGH>;
 			default-state = "on";
+			panic-indicator;
 		};
 
 		status_led {
 			label = "orangepi:red:status";
 			gpios = <&pio 0 15 GPIO_ACTIVE_HIGH>;
+                        linux,default_trigger = "heartbeat";
+                        default-state = "off";
 		};
 	};
 
